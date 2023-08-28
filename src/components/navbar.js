@@ -1,17 +1,29 @@
-import React from 'react';
-import '../style/navbar.css'
+import * as React from 'react';
 
-function NAVBAR() {
+import LOGO from '../assets/logoRealEtstate.png'
+
+import "../style/navbar.css"
+
+function NavBar(props) {
+  
+
   return (
-    <div className='navbar'>
-        <div className='navbar_logo'>
-            REAL STATE
-        </div>
-        <div className='navbar_right'>
-            <a>{"     "}GET IN TOUCH</a>
-        </div>
-    </div>
+    // <Box sx={{ display: 'flex' }}>
+      <div className='navbar'>
+        {/* <img src={LOGO} /> */}
+        <h2>!Real Estate</h2>
+        <ul>
+          <li><a href='#'>HOME</a></li>
+          <li><a href='#'>ABOUT</a></li>
+          <li><a href='#'>CONTACT US</a></li>
+          <li><a href='#'>PAGES</a></li>
+        </ul>
+      </div>
+      
+    // </Box>
   );
 }
 
-export default NAVBAR;
+
+
+export default NavBar;
