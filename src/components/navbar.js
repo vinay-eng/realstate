@@ -11,7 +11,7 @@ function NavBar(props) {
     // <Box sx={{ display: 'flex' }}>
       <div className='navbar'>
         {/* <img src={LOGO} /> */}
-        <h2>!Real Estate</h2>
+        <h2 className='logo'>!Real Estate</h2>
         <ul>
           <li><a href='#'>HOME</a></li>
           <li><a href='#'>ABOUT</a></li>
