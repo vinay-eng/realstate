@@ -14,8 +14,20 @@
 }
 
 .radio{
+    display: flex;
     margin-top: 10px;
     font-size: 2vw;
+    align-items: center;
+    align-content: center;
+    font-weight: 800;
+    color: #279EFF;;
+}
+.radio span{
+  color:#F6635C;
+}
+.radio input{
+  margin-right: 5px;
+  
 }
 .radio input{
     margin-left: 1vw;
@@ -40,16 +52,31 @@
      padding: 20px; 
      margin: 0;      
 } */
-
+.search button{
+  margin-top: 20px;
+  width: 100%;
+  /* line-height: px; */
+  font-size: 3vw;
+  padding: 2%;
+  background-color: #FF6969;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
 .searchBox select{
     /* styling */
   background-color: white;
-  border: thin solid blue;
-  border-radius: 4px;
+  /* border: thin solid blue; */
+  border: none;
+  border-right: 1px;
+  line-height: 20px;
+  /* border-radius: 4px; */
   display: inline-block;
   font: inherit;
+  font-size: 2vw;
   line-height: 1.5em;
   padding: 0.5em 3.5em 0.5em 1em;
+  width: 100%;
 
   /* reset */
 
@@ -62,7 +89,7 @@
     background-image:
       linear-gradient(45deg, transparent 50%, blue 50%),
       linear-gradient(135deg, blue 50%, transparent 50%),
-      linear-gradient(to right, skyblue, skyblue);
+      linear-gradient(to right, #B9B4C7, #B9B4C7);
     background-position:
       calc(100% - 20px) calc(1em + 2px),
       calc(100% - 15px) calc(1em + 2px),
@@ -97,3 +124,12 @@ select.round:focus {
     display: flex;
     align-items: center;
 }  */
+
+
+.search_left{
+  border-radius: 10px 0px 0px 10px;
+}
+
+.search_right{
+  border-radius: 0px 10px 10px 0px;
+}

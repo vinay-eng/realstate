@@ -9,8 +9,8 @@ function SearchProperty(){
             <h2>Search Property Near You</h2>
             <div className='radio'>
                 <span>To :{" "}</span>
-                <input type='radio' value={"rent"}/> Buy
-                <input type='radio' value={"rent"}/> Rent
+                <input type='checkbox' value={"rent"} checked={true}/> Buy
+                <input type='checkbox' value={"rent"} checked={true}/> Rent
             
             </div>
             <div className='searchBox'>
@@ -25,13 +25,14 @@ function SearchProperty(){
                     <option>New Delhi</option>
                     <option>East Delhi</option>
                 </select>
-                <select>
+                <select className='search_right'>
                     <option>Plot/Flat</option>
                     <option>Plot</option>
                     <option>Flat</option>
                 </select>
-                <button className='search_right'>Search</button>
+                
             </div>
+            <button className='search_right'>Search</button>
              
         </div>
     )

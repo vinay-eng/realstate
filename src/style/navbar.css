@@ -5,11 +5,13 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: sticky;
 }
 
 .logo{
     font-size: 5vh;
     color: white;
+    border-bottom: 1px solid #FF6969;
 }
 
 .navbar ul li{
@@ -22,4 +24,8 @@
     text-decoration: none;
     color: white;
     text-transform: uppercase;
+    border-bottom: none;
+}
+.navbar ul li a:hover{
+    border-bottom: 1px solid #FF6969;
 }

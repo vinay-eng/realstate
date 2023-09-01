@@ -1,0 +1,49 @@
+.looking{
+    /* height: 100vh; */
+    width: 100vw;
+    /* background-color: aquamarine; */
+    padding-top: 20px;
+    align-items: center;
+    /* align-content: center; */
+    display: flex;
+    flex-direction: column;
+}
+.looking h2{
+    margin-top: 10px;
+    font-size: 4vw;
+}
+
+.looking_box{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content:center;
+
+    width: 100%;
+}
+
+.rent_and_buy_box{
+    height: 40vw;
+    width: 40vw;
+    background-color: bisque;
+}
+
+.lookingForRent{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../assets/forRent.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.lookingForBuy{
+    background-image: linear-gradient(rgb(255, 105, 105,0.5),rgb(255, 105, 105,0.5)),url('../assets/forBuy.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+.rent_and_buy_box h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
