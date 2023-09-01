@@ -1,19 +1,16 @@
-.mainContact{
-    width: 100%;
-    /* margin: auto; */
-    background-color: black;
-    height: 5vh;
-    /* color: white; */
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    /* margin-left: 35px; */
-}
 
-.mainContact span{
-    position: relative;
-    /* width: 85%; */
+
+.mainContact{
+    /* font-size: 62.5%; */
+    background-color: black;
     color: white;
-    margin-left: 8%;
-    font-size: 1em;
+    display: flex;
+    padding: 10px 7%;
+    align-items:center;
+    justify-content: space-around;
+    /* vertical-align: middle; */
+
+}
+span{
+    margin-left: 5px;
 }

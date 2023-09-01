@@ -8,7 +8,16 @@ import "../style/contact.css"
 function Contact(){
     return (
         <div className='mainContact'>
-            <span><AiOutlineMail/>{" "}singhvinay2017@gmail.com <BiPhoneCall/>+91 8448735275</span>
+            <div className='mail_contact'>
+                <AiOutlineMail/>
+                <span>{" "}singhvinay2017@gmail.com</span>
+            </div>
+            <div className='phone_contact'>
+                <BiPhoneCall/>
+                <span>8448735275</span>
+            </div>
+            
+            
         </div>
     )
 }

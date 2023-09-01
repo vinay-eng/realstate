@@ -14,19 +14,23 @@ function SearchProperty(){
             
             </div>
             <div className='searchBox'>
-                <select>
+                
+                <select className='search_left'>
+                    <option>Select State</option>
                     <option>Delhi</option>
                     <option>NCR</option>
                 </select>
                 <select>
+                    <option>Select City</option>
                     <option>New Delhi</option>
                     <option>East Delhi</option>
                 </select>
                 <select>
+                    <option>Plot/Flat</option>
                     <option>Plot</option>
                     <option>Flat</option>
                 </select>
-                <button>Search</button>
+                <button className='search_right'>Search</button>
             </div>
              
         </div>
